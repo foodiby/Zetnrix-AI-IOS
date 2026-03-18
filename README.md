@@ -1,33 +1,55 @@
+# ⚡ Zentrix AI — Next-Gen iOS Investment Intelligence
 
-Zentrix AI — Inteligentny Asystent Inwestycyjny iOS
-Mobilna aplikacja do śledzenia rynków finansowych (Kryptowaluty, Akcje, ETF) wspierana przez sztuczną inteligencję.
+**Zentrix AI** to autorski projekt ekosystemu mobilnego, który redefiniuje sposób interakcji z danymi finansowymi. Aplikacja nie tylko dostarcza surowe notowania kryptowalut i akcji, ale pełni rolę osobistego analityka finansowego działającego w czasie rzeczywistym.
 
-📱 O Projekcie
-Zentrix AI to zaawansowana aplikacja mobilna zaprojektowana dla nowoczesnych inwestorów, którzy potrzebują czegoś więcej niż tylko surowych danych. Aplikacja agreguje dane z giełd kryptowalut oraz rynków tradycyjnych, a następnie wykorzystuje modele AI do filtrowania szumu informacyjnego i dostarczania konkretnych wniosków.
+---
 
-Projekt został stworzony w ramach kursu programowania mobilnego iOS. Interfejs został zaprojektowany w systemie Dark Mode, zgodnie z wytycznymi Apple Human Interface Guidelines, wykorzystując natywne komponenty systemu iOS.
+## 💎 Wizja Projektu
+W dobie szumu informacyjnego, **Zentrix AI** stawia na selekcję. Zamiast zmuszać użytkownika do czytania setek newsów, aplikacja wykorzystuje modele LLM (Large Language Models) do syntezy kluczowych zdarzeń rynkowych, bezpośrednio wpływających na posiadany portfel.
 
-✨ Funkcjonalności
-🔒 Autoryzacja i Bezpieczeństwo
-FaceID Experience: Integracja z biometrią Apple dla błyskawicznego i bezpiecznego dostępu do portfela.
+### 🚀 Główne Filary UX
 
-Sign in with Apple: Uproszczony proces rejestracji dbający o prywatność użytkownika.
+* **Adaptive Intelligence:** Interfejs zmienia się w zależności od nastrojów rynkowych (np. subtelne akcenty kolorystyczne przy wysokiej zmienności).
+* **Zero-Click Insights:** Najważniejsze wnioski AI są widoczne natychmiast po autoryzacji FaceID, bez konieczności przeklikiwania się przez menu.
+* **Predictive Sentiment:** Wykorzystanie analizy lingwistycznej do przewidywania nastrojów tłumu przed wystąpieniem gwałtownych ruchów cenowych.
 
-📈 Smart Watchlist (Ulubione)
-Dynamiczna lista śledzonych aktywów (BTC, ETH, S&P 500).
+---
 
-Sparklines: Miniaturowe wykresy trendu z ostatnich 24h generowane w czasie rzeczywistym.
+## 📱 Architektura Interfejsu (iOS Case Study)
 
-Intuicyjne gesty iOS: przesuń, aby usunąć lub dodać alert cenowy.
+Projekt został podzielony na 4 kluczowe fazy interakcji, zoptymalizowane pod kątem obsługi jedną ręką na urządzeniach iPhone:
 
-🤖 AI Insights (Analiza Rynku)
-Sentyment Rynku: Wizualny wskaźnik nastrojów (Bullish/Bearish) obliczany przez AI na podstawie tysięcy newsów.
+| Faza | Moduł | Kluczowa Interakcja |
+| :--- | :--- | :--- |
+| **01. Secure** | **Biometric Gate** | Natywna autoryzacja FaceID z fallbackiem do kodu systemowego. |
+| **02. Observe** | **Smart Watchlist** | Haptic Feedback przy scrollowaniu i gesty Swipe dla szybkich akcji. |
+| **03. Understand** | **AI Nexus** | Dynamiczny Dashboard z agregacją sentymentu i podsumowaniem 120min. |
+| **04. Analyze** | **Deep Dive & Chat** | Czat kontekstowy zintegrowany bezpośrednio z osią czasu wykresu. |
 
-Smart Summary: Zamiast dziesiątek artykułów, użytkownik otrzymuje 3 najważniejsze wnioski dotyczące jego portfela.
+---
 
-Weryfikacja źródeł: Przejrzysta lista portali (Bloomberg, Reuters, CoinDesk), na których bazuje analiza.
+## 📸 Wizualizacja Prototypu
+<p align="center">
+  <img src="Design/screen1.png" width="210" />
+  <img src="Design/screen2.png" width="210" />
+  <img src="Design/screen3.png" width="210" />
+  <img src="Design/screen4.png" width="210" />
+</p>
 
-📊 Deep Dive (Szczegóły Aktywa)
-Interaktywne wykresy z możliwością zmiany ram czasowych (1H, 1D, 1W, 1M, ALL).
+---
 
-Ask AI: Dedykowany moduł czatu, pozwalający zapytać sztuczną inteligencję o powody nagłych zmian kursu konkretnego aktywa.
+## 🏗️ Stack Technologiczny (Planowana Implementacja)
+Projekt zakłada wykorzystanie najnowszych frameworków od Apple:
+* **SwiftUI 5.0:** Do budowy responsywnego i płynnego interfejsu.
+* **Swift Charts:** Zaawansowana wizualizacja danych giełdowych z obsługą gestów.
+* **Combine:** Reactive programming do obsługi strumieni danych rynkowych (WebSockets).
+* **CoreML:** On-device processing dla podstawowych analiz sentymentu (prywatność danych).
+
+---
+
+## 👨‍💻 O Autorze
+* **Student:** Danila Vialihka
+* **Semestr:** 6 (Informatyka)
+
+
+---
